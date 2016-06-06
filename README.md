@@ -29,7 +29,7 @@ Assuming all of your resources such as PostgreSQL and S3 are setup properly with
 ```
 $ docker run --name ghost --env-file ./docker.env  -p 8080:2368 -it alpine-ghost-s3
 
-> ghost@0.7.9 start /
+> ghost@0.8.0 start /
 > node index
 
 Migrations: Database initialisation required for version 004
@@ -71,7 +71,7 @@ If the database isn't properly configured (firewall rules, etc), the container w
 ```
 $ docker run --name some-ghost --env-file ./docker.env  -p 8080:2368 -it alpine-ghost-s3
 
-> ghost@0.7.9 start /
+> ghost@0.8.0 start /
 > node index
 
 Knex:warning - Pool2 - Error: Pool was destroyed

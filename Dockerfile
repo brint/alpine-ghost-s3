@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-ENV GHOST_VERSION 0.7.9
+ENV GHOST_VERSION 0.8.0
 ENV GHOST_USER ghost
 
 RUN apk update && \
